@@ -1,0 +1,41 @@
+[Description]
+Skin=Soda Dark (Thin Titlebar)
+Author=Zren (assets cropped from SublimeText3's Soda Dark theme) (based on breeze-minimal)
+Email=zrenfire@gmail.com
+Icon=/icon.png
+Comment=tabset-background is 28px while tab-active is 25px high, so we copy the bottom 3px to our cropped versions.
+
+[Tabs]
+x=22
+y=0
+red=240
+green=240
+blue=241
+selected_background=/tabs/tab-active-bg.png
+selected_left_corner=/tabs/tab-active-bg.png
+selected_right_corner=/tabs/tab-active-bg.png
+unselected_background=/tabs/tab-inactive-bg.png
+unselected_left_corner=/tabs/tab-inactive-bg.png
+unselected_right_corner=/tabs/tab-inactive-bg.png
+prevent_closing_image=/tabs/tab-close.png
+prevent_closing_image_x=0
+prevent_closing_image_y=0
+
+[Background]
+back_image=/tabs/tabset-background.png
+left_corner=/tabs/tabset-background.png
+right_corner=/tabs/tabset-background.png
+
+[PlusButton]
+x=0
+y=0
+up_image=/tabs/tab-new.png
+over_image=/tabs/tab-new-hover.png
+down_image=/tabs/tab-new-pressed.png
+
+[MinusButton]
+x=22
+y=0
+up_image=/tabs/tab-close.png
+over_image=/tabs/tab-close-hover.png
+down_image=/tabs/tab-close-pressed.png
