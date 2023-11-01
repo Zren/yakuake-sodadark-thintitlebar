@@ -1,0 +1,14 @@
+#!/usr/bin/bash
+
+SkinId="sodadark-thintitlebar" # Folder name in ~/.local/share/yakuake/kns_skins/
+SkinVersion=4
+outFilepath="${SkinId}-v${SkinVersion}.tar.gz"
+
+tar --verbose \
+	--transform 's|^|'"${SkinId}"'/|' \
+	-czf "${outFilepath}" \
+	screenshots tabs title  \
+	icon.png README.md tabs.skin title.skin
+
+echo ""
+ls --color=always --time-style=long-iso -alh "${outFilepath}"
