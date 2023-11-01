@@ -6,13 +6,16 @@ This skin [was originally](https://github.com/Zren/yakuake-sodadark-thintitlebar
 
 https://store.kde.org/p/1165686/
 
-![](screenshots/v3_compact.png)
+![](screenshots/v4_compact.png)
 
 
 ## Changelog
 
-* Soda Dark v3: Uses the new 2019 Yakuake Skin features for a Compact Titlebar that combines the titlebar buttons in the tab bar. Can only drag to resize in a small area left of the pin button.
-* Soda Dark v2: Uses a very short titlebar which is 2px tall. It is easier to resize anywhere along the bottom edge.
+* **v4:** Uses the new 2019 Yakuake Skin features for a Compact Titlebar that combines the titlebar buttons in the tab bar. Can only drag to resize in a small area left of the pin button.
+* **v3:**
+    * Placed zipped files inside a `sodadark-thintitlebar` subfolder. It needs that folder name to define the skin id.
+    * Note that even in Plasma 5.15, there is a bug where you cannot download skins using the "Get Hot New Stuff" dialog due to a Yakuake bug: https://bugs.kde.org/show_bug.cgi?id=395012 (Fixed in 2019)
+* **v2:** Uses a very short titlebar which is 2px tall. It is easier to resize anywhere along the bottom edge.
 
 
 ## Yakuake Skin Documentation
