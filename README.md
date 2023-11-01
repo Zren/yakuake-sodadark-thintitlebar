@@ -15,7 +15,8 @@ https://store.kde.org/p/1165686/
 * **v3:**
     * Placed zipped files inside a `sodadark-thintitlebar` subfolder. It needs that folder name to define the skin id.
     * Note that even in Plasma 5.15, there is a bug where you cannot download skins using the "Get Hot New Stuff" dialog due to a Yakuake bug: https://bugs.kde.org/show_bug.cgi?id=395012 (Fixed in 2019)
-* **v2:** Uses a very short titlebar which is 2px tall. It is easier to resize anywhere along the bottom edge.
+* **v2:** Uses a very short titlebar which is 2px tall. It is easier to resize anywhere along the bottom edge. ![](screenshots/v2_thintitlebar.png)
+
 
 
 ## Yakuake Skin Documentation
