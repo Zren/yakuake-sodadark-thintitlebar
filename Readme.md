@@ -1,10 +1,18 @@
 # Soda Dark (Yakuake Skin)
 
-![](screenshots/v3_compact.png)
-
 Assets are cropped from Sublime Text 3's [Soda Dark theme](https://github.com/buymeasoda/soda-theme) by Ian Hill (http://buymeasoda.com/) which is under the [Creative Commons Attribution-ShareAlike 3.0 License (CC-By-SA-3.0)](http://creativecommons.org/licenses/by-sa/3.0/).
 
 This skin [was originally](https://github.com/Zren/yakuake-sodadark-thintitlebar/tree/v2) based on the [breeze-minimal skin](https://store.kde.org/p/1106236) which creates a thin 2px tall titlebar with tiny buttons for the StayOnTop, Configure, and Quit buttons. We now use new Yakuake skin techniques (added in 2019) to place those buttons in the TabBar.
+
+https://store.kde.org/p/1165686/
+
+![](screenshots/v3_compact.png)
+
+
+## Changelog
+
+* Soda Dark v3: Uses the new 2019 Yakuake Skin features for a Compact Titlebar that combines the titlebar buttons in the tab bar. Can only drag to resize in a small area left of the pin button.
+* Soda Dark v2: Uses a very short titlebar which is 2px tall. It is easier to resize anywhere along the bottom edge.
 
 
 ## Yakuake Skin Documentation
