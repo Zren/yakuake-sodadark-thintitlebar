@@ -1,13 +1,13 @@
 [Description]
-Skin=Soda Dark (Thin Titlebar)
+Skin=Soda Dark v3 (Compact Titlebar)
 Author=Zren (assets cropped from SublimeText3's Soda Dark theme) (based on breeze-minimal)
 Email=zrenfire@gmail.com
 Icon=/icon.png
-Comment=tabset-background is 28px while tab-active is 25px high, so we copy the bottom 3px to our cropped versions.
 
 [Tabs]
-x=22
-y=0
+compact=true
+x=0
+y=-4
 red=240
 green=240
 blue=241
@@ -17,9 +17,10 @@ selected_right_corner=/tabs/tab-active-bg.png
 unselected_background=/tabs/tab-inactive-bg.png
 unselected_left_corner=/tabs/tab-inactive-bg.png
 unselected_right_corner=/tabs/tab-inactive-bg.png
-prevent_closing_image=/tabs/tab-close.png
+prevent_closing_image=/tabs/lock.svg
 prevent_closing_image_x=0
 prevent_closing_image_y=0
+selected_text_bold=false
 
 [Background]
 back_image=/tabs/tabset-background.png
@@ -32,10 +33,17 @@ y=0
 up_image=/tabs/tab-new.png
 over_image=/tabs/tab-new-hover.png
 down_image=/tabs/tab-new-pressed.png
+at_end_of_tabs=true
 
+# When in `[Tabs] compact=true` mode, Yakuake will use the width of the
+# CloseTab button to determine the right most point of the TabBar (rect.x2).
+# https://invent.kde.org/utilities/yakuake/-/blob/master/app/skin.cpp#L148
+# So to make the FocusButton and ConfigButton visible on the right side, we
+# Need to set this x = 2*30px (since we hide the QuitButton too).
+# We can use x=60 and width=0, since a user can Ctrl+Shift+W or middle click to close a tab.
 [MinusButton]
-x=22
+x=72
 y=0
-up_image=/tabs/tab-close.png
-over_image=/tabs/tab-close-hover.png
-down_image=/tabs/tab-close-pressed.png
+up_image=0
+over_image=0
+down_image=0

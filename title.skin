@@ -1,5 +1,5 @@
 [Description]
-Skin=Soda Dark (Thin Titlebar)
+Skin=Soda Dark v2 (Thin Titlebar)
 Author=Zren (assets cropped from SublimeText3's Soda Dark theme) (based on breeze-minimal)
 Email=zrenfire@gmail.com
 Icon=/icon.png
@@ -17,28 +17,34 @@ red=239
 green=240
 blue=241
 text=
+bold=false
+center=true
 
 [Background]
-back_image=/title/back.png
-left_corner=/title/back.png
+back_image=/tabs/tabset-background.png
+left_corner=/tabs/tabset-background.png
+right_corner=/tabs/tabset-background.png
 
 [FocusButton]
-x=60
+anchor=right
+x=48
 y=0
-up_image=/title/button.png
-over_image=/title/gray.png
-down_image=/title/green.png
+up_image=/title/focus_up.svg
+over_image=/title/focus_over.svg
+down_image=/title/focus_down.svg
 
 [ConfigButton]
-x=40
+anchor=right
+x=24
 y=0
-up_image=/title/button.png
-over_image=/title/blue.png
-down_image=/title/gray.png
+up_image=/title/config_up.svg
+over_image=/title/config_down.svg
+down_image=/title/config_down.svg
 
 [QuitButton]
-x=20
+anchor=right
+x=0
 y=0
-up_image=/title/button.png
-over_image=/title/red.png
-down_image=/title/gray.png
+up_image=0
+over_image=0
+down_image=0
